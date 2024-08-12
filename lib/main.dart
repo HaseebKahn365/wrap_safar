@@ -69,93 +69,11 @@ class HomeScreen extends StatelessWidget {
         ),
 
         Container(
-          color: themeProvider.themeData.colorScheme.background,
+          color: themeProvider.themeData.colorScheme.tertiary,
           height: 100,
           width: double.infinity,
           child: Center(
-            child: Text('Background Color'),
-          ),
-        ),
-
-        Container(
-          color: themeProvider.themeData.colorScheme.surface,
-          height: 100,
-          width: double.infinity,
-          child: Center(
-            child: Text('Surface Color'),
-          ),
-        ),
-
-        Container(
-          color: themeProvider.themeData.colorScheme.onPrimary,
-          height: 100,
-          width: double.infinity,
-          child: Center(
-            child: Text('On Primary Color'),
-          ),
-        ),
-
-        Container(
-          color: themeProvider.themeData.colorScheme.onSecondary,
-          height: 100,
-          width: double.infinity,
-          child: Center(
-            child: Text('On Secondary Color'),
-          ),
-        ),
-
-        Container(
-          color: themeProvider.themeData.colorScheme.onBackground,
-          height: 100,
-          width: double.infinity,
-          child: Center(
-            child: Text('On Background Color'),
-          ),
-        ),
-
-        Container(
-          color: themeProvider.themeData.colorScheme.onSurface,
-          height: 100,
-          width: double.infinity,
-          child: Center(
-            child: Text('On Surface Color'),
-          ),
-        ),
-
-        Container(
-          color: themeProvider.themeData.colorScheme.error,
-          height: 100,
-          width: double.infinity,
-          child: Center(
-            child: Text('Error Color'),
-          ),
-        ),
-
-        Container(
-          color: themeProvider.themeData.colorScheme.onError,
-          height: 100,
-          width: double.infinity,
-          child: Center(
-            child: Text('On Error Color'),
-          ),
-        ),
-
-        //inverse primary and inverse secondary
-        Container(
-          color: themeProvider.themeData.colorScheme.inversePrimary,
-          height: 100,
-          width: double.infinity,
-          child: Center(
-            child: Text('Primary Variant Color'),
-          ),
-        ),
-
-        Container(
-          color: themeProvider.themeData.colorScheme.onSecondary,
-          height: 100,
-          width: double.infinity,
-          child: Center(
-            child: Text('Secondary Variant Color'),
+            child: Text('Tertiary Color'),
           ),
         ),
       ]),
